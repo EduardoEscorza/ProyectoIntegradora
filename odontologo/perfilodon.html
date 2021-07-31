@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--perfil paciente-->
+<html>
+    <head>
+        <title>Mi Perfil</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="../imagenes/dentista.ico" rel="shortcut icon">
+        <!--bootstrap-->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+    </head>
+    <body>
+        <!--navbar--><!--barra de navegacion-->
+        
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #00B4DB;
+                        background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+                        background: linear-gradient(to right, #0083B0, #00B4DB);">
+                    <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="imagenes/logclinica.jpg" alt="" width="50"  class="d-inline-block align-text-mid" >
+                ClinicaWhite</a>
+                        
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="nav nav-tabs ">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#" >Perfil</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../servicios/servicios.html">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Cerrar sesion</a></li>
+                        </ul>
+                            <div>
+                                <form class="d-flex">
+                            <input class="form-control me-3" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn" style="background-color: #e6e8fa" type="submit">Buscar</button>
+                        </form>
+                             </div>
+                        </div>
+                    </div>
+                </nav>
+        
+        <!--perfil-->
+        
+        <div id="perfil">
+            <div class="container-sm p-6">
+                <div class="row">
+                    <div class="card" style="width: 16rem;">
+                        <img src="../imagenes/odonperfil.jpg" class="card-img-top" alt="">
+                            <h3 class="text-center h1">Bienvenido "Doctor"</h3>
+
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Nombre</li>
+                                         <li class="list-group-item">Apellido paterno</li>
+                                         <li class="list-group-item">Apellido materno</li> 
+                                        <li class="list-group-item">Cedula profesional</li>
+                                        <a href="modificar.html" class="btn btn-info stretched-link">Modificar</a>
+                                     </ul>
+                                   </div>
+                    
+                    
+                    
+                    <div class="col-9"><!--targeta 1 verde-->
+                        <div class="row">
+                            <div class="col p-1">
+                                    <div class="card bg-success text-white">
+                                        <div class="row g-0">
+                                            <div class="col-md-6">
+                                                <img src="../imagenes/img7.png" class="w-100" alt="...">
+                                            </div>
+                                                <div class="col-md-6">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Consultar Citas</h5>
+                                                        <p class="card-text"></p>
+                                                        <a href="#" class="btn btn-primary stretched-link">Consultar</a>
+                                                     </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div><!--targeta 1 verde-->
+                            
+                                <div class="col p-1"><!--targeta 2 azul-->  
+                                    <div class="card bg-primary text-white">
+                                        <div class="row g-0">
+                                                <div class="col-md-6">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Ver expedientes</h5>
+                                                        <p class="card-text"></p>
+                                                        <a href="#" class="btn btn-secondary stretched-link">Ver</a>
+                                                     </div>
+                                                </div>
+                                            <div class="col-md-6">
+                                                <img src="../imagenes/consultac.jpg" class="w-100" alt="...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--targeta 2 azul-->  
+                            </div>
+                        
+                                <div class="row"><!--targeta 3 negra-->
+                            <div class="col p-1">
+                                    <div class="card bg-dark text-white">
+                                        <div class="row g-0">
+                                            <div class="col-md-6">
+                                                <img src="../imagenes/modificarc.jpg" class="w-100" alt="...">
+                                            </div>
+                                                <div class="col-md-6">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Creacion expedientes</h5>
+                                                        <p class="card-text"></p>
+                                                           <a href="#" class="btn btn-warning stretched-link">Crear</a>
+                                        
+                                                     </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div><!--targeta 3 negra-->
+                            
+                                <div class="col p-1">
+                                    <div class="card bg-warning text-white">
+                                        <div class="row g-0">
+                                            <div class="col-md-6">
+                                                <img src="../imagenes/contrac.jpg" class="w-100" alt="...">
+                                            </div>
+                                                <div class="col-md-6">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Cambiar contraseña</h5>
+                                                        <p class="card-text"></p>
+                                                        <a href="#" class="btn btn-dark stretched-link">Cambiar contraseña</a>
+                                                     </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--fin de perfil-->   
+                    </div>
+                </div>                    
+            </div>                   
+
+            
+        
+        <!--bootstrap-->
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/pooper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    </body>
+</html>
