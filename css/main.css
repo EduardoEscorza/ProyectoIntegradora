@@ -1,0 +1,9 @@
+#perfil{
+    background:url(../imagenes/fondo1.jpg) ;
+    background-color: rgb(255,255,219);
+    background-size: 200px 200px; 
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}

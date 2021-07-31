@@ -1,0 +1,98 @@
+<html>
+    
+    <!--registro paciente-->
+    <head lang="en">
+        <title>Login y Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../imagenes/dentista.ico" rel="shortcut icon">
+        <link rel="stylesheet" href="registrar.css">
+         <!--bootstrap-->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/DataTables/datatables.min.css">
+        
+    </head>
+    <header>
+        <link rel="stylesheet" href="registrar.css">
+        <link href = "https: //fonts.googleapis.com/css2? family = Open + Sans + Condensed: wght @ 300 & display = swap " rel =" stylesheet ">
+        
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #00B4DB;
+                        background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+                        background: linear-gradient(to right, #0083B0, #00B4DB);">
+                    <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="../imagenes/logclinica.jpg" alt="100" width="50"  class="d-inline-block align-text-mid" >
+                ClinicaWhite</a>
+                        
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="nav nav-tabs ">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../quienes_somos.html" >Quienes somos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../servicios/servicios.html">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="../orientacion.html">Registro</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../orientacion2.html">Iniciar sesion</a></li>
+                        </ul>
+                            <div>
+                                <form class="d-flex">
+                            <input class="form-control me-3" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn" style="background-color: #e6e8fa" type="submit">Buscar</button>
+                        </form>
+                             </div>
+                        </div>
+                    </div>
+                </nav>
+    </header>
+       
+       <body>
+        <div class="caja">
+            <form action="" method="POST" id="form">
+            <div class="form">
+                <h1 class="texto">Registro</h1>
+                <div class="grupo">
+                    <input type="text" name="" id="name" maxlength="20" required><span class="barra"></span>
+                    <label for="">Nombre</label>    
+                </div>
+                <div class="grupo">
+                    <input type="text" name="" id="paterno" maxlength="10" required><span class="barra"></span>
+                    <label for="">Apellido paterno</label>    
+                </div>
+                <div class="grupo">
+                    <input type="text" name="" id="materno" maxlength="10" required><span class="barra"></span>
+                    <label for="">Apellido materno</label>    
+                </div>
+                <div class="grupo">
+                    <input type="date" name="" id="" required><span class="barra"></span>
+                    <label for="">Fecha de naciemiento</label>    
+                </div>
+                <div class="grupo">
+                    <input type="number" name="" id="name"><span class="barra"></span>
+                    <label for="">Numero telefonico</label>    
+                </div>
+                <div class="grupo">
+                   
+                     <select Class="genero">
+                      <option selected value="0" required> Selecciona tu sexo </option>
+                      <option value="1">Hombre</option> 
+                      <option value="2">Mujer</option>  
+                    </select>
+  
+                </div>
+                <div class="grupo">
+                    <input type="email" name="" id="email"  required><span class="barra"></span>
+                    <label for="">Email</label>    
+                </div>
+                <button type="submit" onclick="contraseña()"><h4>Registrarte</h4></button>
+                <p class="warning" id="peligro"></p>
+            </div>
+        </form>
+        </div>
+        <script src="validacion.js" type="text/javascript"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    </body>
+    <!--bootstrap-->
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/pooper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+</html>
